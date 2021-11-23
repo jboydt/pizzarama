@@ -14,7 +14,7 @@ int main() {
 	p.addTopping(Topping::RED_SAUCE);
 	std::cout << p.toString() << std::endl;
 
-	p.addToppings(Topping::CHEESE | Topping::PEPPERONI);
+	p.addToppings(Topping::CHEESE | Topping::PEPPERONI | Topping::BASIL);
 	std::cout << p.toString() << std::endl;
 
 	return 0;
