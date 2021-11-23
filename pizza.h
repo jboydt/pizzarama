@@ -12,7 +12,7 @@ enum Topping {
 	BELL_PEPPER = 32,
 	BLACK_OLIVES = 64,
 	BASIL = 128,
-	NO_TOPPING = 256
+	NO_TOPPING = 128
 };
 
 class Pizza {
